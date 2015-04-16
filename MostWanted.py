@@ -8,6 +8,7 @@ import collections
 import operator
 
 
+
 def most_wanted(str):
     # We want to first lowercase the string, then sort them.
     sorted_str = "".join(sorted(str.lower()))
